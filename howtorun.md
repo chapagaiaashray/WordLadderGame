@@ -31,6 +31,16 @@ Final Project/
 
 ---
 
+## ✅ Step 1: Download `stdlib.jar`
+
+If you don't already have it, download the official `stdlib.jar` file:
+
+> 📥 [Click here to download](https://introcs.cs.princeton.edu/java/stdlib/stdlib.jar)
+
+Once downloaded, **place it in the root directory** of your project (same level as your `src/` and `assets/` folders).
+
+---
+
 ## Compile the Game (If using source files)
 
 Run this command **from the root project folder**:
@@ -45,17 +55,16 @@ This compiles all `.java` files inside `src/` and places `.class` files into the
 
 ## ▶️ Run the Game
 
-### Option 1: Run Using `.class` Files (After Compiling)
+If you already have the `WordLadderGame.jar` file, simply run:
 
 ```bash
-java -cp out Main
+java -cp "WordLadderGame.jar:stdlib.jar" Main
 ```
 
-### Option 2: Run the Pre-built `.jar` File
-
-```bash
-java -jar WordLadder.jar
-```
+> **Windows Users:** Use a semicolon instead of a colon:
+> ```
+> java -cp "WordLadderGame.jar;stdlib.jar" Main
+> ```
 
 ---
 
