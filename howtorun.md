@@ -61,10 +61,10 @@ If you already have the `WordLadderGame.jar` file, simply run:
 java -cp "WordLadderGame.jar:stdlib.jar" Main
 ```
 
-> **Windows Users:** Use a semicolon instead of a colon:
-> ```
-> java -cp "WordLadderGame.jar;stdlib.jar" Main
-> ```
+**Windows Users:** Use a semicolon instead of a colon:
+```
+java -cp "WordLadderGame.jar;stdlib.jar" Main
+```
 
 ---
 
