@@ -1,0 +1,19 @@
+# IDE-specific
+.idea/
+*.iml
+.vscode/
+
+# Build & output directories
+out/
+*.class
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
