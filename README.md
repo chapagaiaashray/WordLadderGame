@@ -90,10 +90,12 @@ This project began as a simple terminal-based Word Ladder solver in version 1.0,
 ___
 
 
-## How to Run
+## __How to Run the Game__
 
-Ensure the following are in the **same directory**:
-- `.java` source files
-- `word_ladder_words.txt`
-- All `.wav` sound files
-- `background.png`
+To run this on your machine, please follow the detailed instructions in the [`howtorun.md`](howtorun.md) file. It includes:
+
+- Java installation guidance
+- Directory and asset setup
+- `javac` and `java` command usage
+- Classpath tips for __Windows__, __macOS__, and __Linux__
+- How to run the `.jar` file if you prefer that
