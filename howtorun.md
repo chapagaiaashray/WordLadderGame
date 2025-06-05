@@ -17,16 +17,16 @@ This guide will walk you through compiling and running the **Word Ladder Game** 
 Final Project/
 ├── src/                  # All your .java source files
 │   └── ...
-├── assets/               # All game resources
-│   ├── *.png             # Background images
-│   ├── *.wav             # Sound effects
-│   └── word_ladder_words.txt
 ├── out/                  
 ├── WordLadder.jar        
 ├── README.md
 ├── howtorun.md
 └── .gitignore
 └── stddraw.jar
+└── *.png             # Background images
+└── *.wav             # Sound effects
+└── word_ladder_words.txt
+
 ```
 
 ---
