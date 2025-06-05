@@ -59,14 +59,6 @@ Unit testing is done using **JUnit** and covers:
 
 ---
 
-## Known Bugs & Limitations
-
-- Some edge cases may lead to no path being found (rare, due to random generation).
-- Sounds may not work on all platforms without Java sound configuration.
-- The GUI does not yet support dynamic resizing.
-
----
-
 ## Acknowledgements
 
 - Background music and sound effects from [freesound.org](https://freesound.org)
@@ -83,12 +75,6 @@ Unit testing is done using **JUnit** and covers:
 - Fully commented codebase, with docstrings on all methods.
 
 ---
-
-## Version Progression
-
-This project began as a simple terminal-based Word Ladder solver in version 1.0, focused solely on basic functionality such as word validation, transformation logic, and move tracking. Since then, version 2.0 represents a complete transformation into an interactive and visually engaging experience. The game now features a full graphical user interface built with StdDraw, animated transitions between words, interactive buttons (Restart, Give Up, Quit), background music and sound effects, difficulty selection, and real-time feedback. Significant effort went into refining game logic to guarantee valid start-to-end paths based on chosen difficulty levels, as well as implementing comprehensive JUnit tests to ensure reliability. All classes are now well-structured, thoroughly documented with Javadoc comments, and organized for clarity and maintainability.
-___
-
 
 ## __How to Run the Game__
 
