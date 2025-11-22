@@ -46,7 +46,7 @@ Once downloaded, **place it in the root directory** of your project (same level 
 Run this command **from the root project folder**:
 
 ```bash
-javac -d out -cp "src" src/*.java
+javac -d out -cp "stdlib.jar:src" src/*.java
 ```
 
 This compiles all `.java` files inside `src/` and places `.class` files into the `out/` directory.
@@ -58,12 +58,12 @@ This compiles all `.java` files inside `src/` and places `.class` files into the
 If you already have the `WordLadderGame.jar` file, simply run:
 
 ```bash
-java -cp "WordLadderGame.jar:stdlib.jar" Main
+java -cp "out:stdlib.jar" Game
 ```
 
 **Windows Users:** Use a semicolon instead of a colon:
 ```
-java -cp "WordLadderGame.jar;stdlib.jar" Main
+java -cp "out;stdlib.jar" Game
 ```
 
 ---
